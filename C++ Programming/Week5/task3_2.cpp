@@ -37,4 +37,6 @@ int main() {
 
     string word = "aAb1B2cC34oOp";
     cout << solution(word) << endl;
+
+    return 0;
 }
