@@ -2,8 +2,10 @@
 #include <vector>
 #include <iostream>
 
+
 using namespace std;
 
+// 내 풀이
 vector<int> solution(vector<string> keyinput, vector<int> board) {
 
     vector<int> start = { 0, 0 };
@@ -41,6 +43,41 @@ vector<int> solution(vector<string> keyinput, vector<int> board) {
 
     // return answer;
     return start;
+}
+
+
+// 교수님 풀이
+vector<int> move(vector<int> cur, string key, vector<int> board) {
+    if (key == "down") {
+        if (cur[1] > -board[1] / 2) {
+            cur[1]--;
+        }
+    }
+    else if (key == "up") {
+        if (cur[1] < board[1] / 2) {
+            cur[1]++;
+        }
+    }
+    else if (key == "left") {
+        if (cur[0] < -board[0] / 2) {
+            cur[0]--;
+        }
+    }
+    else if (key == "right") {
+        if (cur[0] < board[0] / 2) {
+            cur[0]++;
+  
+      }
+    }
+}
+
+// 미완 ㅋㅋ
+vector<int> professor_solution(vector<string> keyinput, vector<int> board) {
+    vector<int> answer;
+    answer.push_back(0);
+
+
+    return answer;
 }
 
 int main() {
