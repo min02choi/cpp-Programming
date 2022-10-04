@@ -18,5 +18,11 @@
     <ClCompile Include="TestingForkc.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="thread2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fork.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
