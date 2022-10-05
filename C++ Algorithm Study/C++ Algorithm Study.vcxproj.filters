@@ -21,11 +21,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ch1_7_5.cpp">
-      <Filter>소스 파일\Ch1</Filter>
-    </ClCompile>
-    <ClCompile Include="ch2_3_1_practice7.cpp">
-      <Filter>소스 파일\Ch2</Filter>
+    <ClCompile Include="Ch1\ch1_7_5_solution.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
