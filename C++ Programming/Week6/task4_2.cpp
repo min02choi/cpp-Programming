@@ -17,9 +17,9 @@ vector<int> solution(int n) {
 			}
 		}
 	}
+
 	sort(answer.begin(), answer.end());
 	answer.erase(unique(answer.begin(), answer.end()), answer.end());
-
 
 	return answer;
 }
@@ -30,7 +30,7 @@ int main() {
 	int n;
 	cin >> n;
 
-	solution(n);
+	cout << solution(n) << endl;
 
 	return 0;
 }

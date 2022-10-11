@@ -59,8 +59,8 @@ long long int solution(int balls, int share) {
 
 int main() {
 
-    int balls = 1;
-    int share = 1;
+    int balls = 50;
+    int share = 8;
 
     cout << solution(balls, share) << endl;
 
