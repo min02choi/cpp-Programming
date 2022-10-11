@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week6\practice14_real.cpp">
+    <ClCompile Include="Week6\practice16.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
