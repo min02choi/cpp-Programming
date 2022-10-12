@@ -100,15 +100,14 @@ int my_stoi(string num) {
     int k = 1;
     int n = 0;
 
-    for (int i = num.length() - 1; i <= 0; i--, k *= 10) {
-        n += (num[i] - '0') * k;
+    for (int i = num.length() - 1; i >= 0; i--, k *= 10) {
+        n += (num[i] - '0') * k;     // ?
     }
     return n;
 }
 
 // itos 함수도 라이브러리에 있음
 string itos(int n) {
-    int i;
     string num = "";
     for (int i = n; i > 0; i /= 10) {
         char temp = (i % 10) + '0';
@@ -124,7 +123,7 @@ vector<string> tokenize(string letter) {
     for (int i = 0; i < letter.length(); i = j + 1) {
         for (j = i; j < letter.length(); j++) {
             if (letter[j] == ' ') {
-                tokens.push_back(letter.substr(i, j - 1));
+                tokens.push_back(letter.substr(i, j - i));
                 break;
             }
         }
@@ -160,10 +159,10 @@ string professor_solution(string polynimial) {
     }
     else {
         if (cof == 1) {
-            answer += "x + ";
+            answer = "x + " + itos(constant);
         }
         else {
-            answer = itos(cof) + " x + ";
+            answer = itos(cof) + "x";
         }
         if (constant > 0) {
             answer += " + " + itos(constant);
@@ -174,7 +173,7 @@ string professor_solution(string polynimial) {
 
 int main() {
 
-    string polynomial = "7x + 56 + 2x";
+    string polynomial = "3x + 7 + x";
 
     cout << solution(polynomial) << endl;
     cout << professor_solution(polynomial) << endl;     // 잘 안나옴
