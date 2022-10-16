@@ -16,10 +16,13 @@
     <Filter Include="소스 파일\Ch1">
       <UniqueIdentifier>{21dce603-bb58-40bb-a08f-fb1effddd2f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Ch2">
+      <UniqueIdentifier>{c374e808-fad2-4016-b30f-0508384efc86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ch1_7_5.cpp">
-      <Filter>소스 파일\Ch1</Filter>
+    <ClCompile Include="Ch1\ch1_7_5_solution.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

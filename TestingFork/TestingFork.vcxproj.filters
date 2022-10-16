@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestingForkc.cpp">
+    <ClCompile Include="TestingForkc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="thread2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fork.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
