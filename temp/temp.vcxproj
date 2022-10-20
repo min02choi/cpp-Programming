@@ -18,14 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Week7\practice18.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d930f4c6-10dc-4d6a-a1d3-ec2e8a132844}</ProjectGuid>
-    <RootNamespace>CProgramming</RootNamespace>
+    <ProjectGuid>{f201b21b-76e1-4912-be62-fcbb9f9219da}</ProjectGuid>
+    <RootNamespace>temp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
