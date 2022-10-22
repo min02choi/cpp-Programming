@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Practice\Programmers\word_game.cpp">
+    <ClCompile Include="Practice\Practice23.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice\Practice20.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

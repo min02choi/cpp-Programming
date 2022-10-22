@@ -19,7 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Practice\Programmers\word_game.cpp" />
+    <ClCompile Include="Practice\Practice20.cpp" />
+    <ClCompile Include="Practice\Practice23.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

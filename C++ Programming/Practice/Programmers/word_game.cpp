@@ -2,6 +2,10 @@
 #include <vector>
 #include <iostream>
 
+/*
+    끝말잇기 게임
+*/
+
 using namespace std;
 
 // 2자리 이상의 단어인지 검사
@@ -30,17 +34,14 @@ int is_connected(string cur_word, string bef_word) {
     return 1;
 }
 
-
-
 vector<int> solution(int n, vector<string> words) {
     vector<int> answer;
     vector<string> duplicated;
 
-    string word;
-    string cur_word = "0", bef_word = "0";
+    string cur_word = "", bef_word = "";
     
     int player, turn = 0;
-    int game_flag = 0;
+    // int game_flag = 0;
     int end_flag = 0;
 
     int i = 0;
@@ -49,6 +50,7 @@ vector<int> solution(int n, vector<string> words) {
         bef_word = cur_word;
         cur_word = words[i];
         
+        /*
         game_flag = is_word(cur_word);
         if (game_flag == 1) {
             break;
@@ -58,11 +60,20 @@ vector<int> solution(int n, vector<string> words) {
         if (game_flag == 1) {
             break;
         }
+        */
 
-        if (bef_word != "0") {
+        if (is_word(cur_word) || is_duplicated(cur_word, duplicated)) {
+            break;
+        }
 
+        if (bef_word != "") {
+            /*
             game_flag = is_connected(cur_word, bef_word);
             if (game_flag == 1) {
+                break;
+            }
+            */
+            if (is_connected(cur_word, bef_word)) {
                 break;
             }
         }
@@ -88,7 +99,6 @@ vector<int> solution(int n, vector<string> words) {
         player = 0;
     }
 
-
     answer.push_back(player);
     answer.push_back(turn);
 
@@ -103,4 +113,6 @@ int main() {
     vector<int> answer = solution(player, words);
 
     cout << answer[0] << " " << answer[1] << endl;
+
+    return 0;
 }

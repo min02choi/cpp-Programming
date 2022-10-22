@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class myerror {};
+class myerror { };
 
 int division(int i, int j) {
 	

@@ -2,6 +2,9 @@
 #include <vector>
 #include <algorithm>
 
+// 최빈값 구하기
+// 와 도대체 이게 왜
+
 using namespace std;
 
 int solution(vector<int> array) {
@@ -42,12 +45,17 @@ int professor_solution(vector<int> array) {
     int modecnt = -1;
     bool duplicate = 0;
 
+    // 초기화
     for (int i = 0; i < 1000; i++) {
         count[i] = false;
     }
-    for (int i = 0; i < array.size(); i++) {    // array값에 해당하는 cnt의 값을 증가
+
+    // array값에 해당하는 cnt의 값을 증가
+    for (int i = 0; i < array.size(); i++) {    
         count[array[i]]++;
     }
+
+
     for (int i = 0; i < 1000; i++) {        
         if (count[i] > modecnt) {
             mode = i;

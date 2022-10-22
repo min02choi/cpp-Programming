@@ -3,6 +3,8 @@
 #include <iostream>
 #include <algorithm>
 
+// 함수 다시 한번 볼 것
+
 using namespace std;
 
 vector<int> solution(int n) {
