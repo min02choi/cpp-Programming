@@ -31,7 +31,7 @@ string solution(string bin1, string bin2) {
     int temp1, temp2, result;
     int over = 0;
 
-    vector<int> total;  //안녕하세요 조성민입니다. 방명록 남기고 가요~~ 키보드 키감이 좋네요
+    vector<int> total;
 
     // int로의 전환
     // 난 함수를 직접 구현했는데 stoi라는 함수가 있었음ㅋㅋ
@@ -57,7 +57,7 @@ string solution(string bin1, string bin2) {
 
         if (result >= 2) {
             over = 1;
-            result -= 2;
+            result -= 2;        // 더하는 수가 두개 보장이므로 할 수 있는 코드
         }
         else {
             over = 0;

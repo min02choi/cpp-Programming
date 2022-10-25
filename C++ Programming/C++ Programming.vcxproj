@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Practice\Practice20.cpp" />
-    <ClCompile Include="Practice\Practice23.cpp" />
+    <ClCompile Include="Practice\task2_3.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

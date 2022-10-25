@@ -3,7 +3,7 @@
 #include <algorithm>
 
 // 최빈값 구하기
-// 하..
+// 하.. 다시 풀어봐
 
 using namespace std;
 
