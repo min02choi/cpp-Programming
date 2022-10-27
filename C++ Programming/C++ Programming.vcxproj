@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Practice\task2_3.cpp" />
+    <ClCompile Include="Week9\class2Practice.cpp" />
+    <ClCompile Include="Week9\constructorPractice.cpp" />
+    <ClCompile Include="Week9\Practice1.cpp" />
+    <ClCompile Include="Week9\Practice2.cpp" />
+    <ClCompile Include="Week9\Sample.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
