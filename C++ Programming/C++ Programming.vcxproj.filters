@@ -24,11 +24,19 @@
     <ClCompile Include="Week9\constructorPractice.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Week9\class2Practice.cpp">
+    <ClCompile Include="Week9\classPractice2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Week9\Sample.h">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Week9\classPractice3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Week9\classHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
