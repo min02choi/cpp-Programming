@@ -19,15 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week9\classPractice2.cpp" />
-    <ClCompile Include="Week9\classPractice3.cpp" />
-    <ClCompile Include="Week9\constructorPractice.cpp" />
-    <ClCompile Include="Week9\Practice1.cpp" />
-    <ClCompile Include="Week9\Practice2.cpp" />
-    <ClCompile Include="Week9\Sample.h" />
+    <ClCompile Include="Week10\staticMembers.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Week9\classHeader.h" />
+    <ClInclude Include="Week10\operatorOverloading.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

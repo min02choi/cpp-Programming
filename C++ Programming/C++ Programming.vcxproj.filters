@@ -15,27 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week9\Practice1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Week9\Practice2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Week9\constructorPractice.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Week9\classPractice2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Week9\Sample.h">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Week9\classPractice3.cpp">
+    <ClCompile Include="Week10\staticMembers.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Week9\classHeader.h">
+    <ClInclude Include="Week10\operatorOverloading.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
