@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Week10\friendFunction.cpp" />
     <ClCompile Include="Week10\staticMembers.cpp" />
   </ItemGroup>
   <ItemGroup>
