@@ -13,3 +13,5 @@ public:
 	}
 	friend CRectangle duplicate(CRectangle);
 };
+
+// 안녕하세요
