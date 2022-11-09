@@ -3,6 +3,9 @@
 #include <vector>
 #include <algorithm>
 
+// ±³¼ö´ÔÀÇ Ç®ÀÌ¿¡ ¿¡¶ó... °¡ ÀÖÀ½
+// ±Ùµ¥ ±³¼ö´Ô²« Àß µÊ
+
 using namespace std;
 
 int my_solution(int n) {
@@ -108,7 +111,7 @@ int Number::getNum() {
     int num = 0;
     for (int m = n.length() - 1; m >= 0; m--) {
         num += (n[m] - '0') * i;
-        i = i * 10;
+        i = i * k;
     }
     return num;
 }
@@ -129,7 +132,8 @@ string Number::getN() {
 
 
 int main() {
-    Number mynum(45);
+
+    Number mynum(125);
     cout << mynum.getN() << endl;
     
     mynum.changeNum(3);
@@ -139,7 +143,6 @@ int main() {
     // cout << Converter::reverse(mynum.getN()) << endl;       // staticÀº ±»ÀÌ object°¡ ÇÊ¿ä ¾ø¾î¼­ :: »ç¿ë
     cout << mynum.getN() << endl;
 
-    // mynum.setNum(10);
     mynum.changeNum(10);
 
     cout << mynum.getN() << endl;
@@ -147,8 +150,6 @@ int main() {
 
     cout << mynum.getNum() << endl;
 
-
-    
     return 0;
 
 }
