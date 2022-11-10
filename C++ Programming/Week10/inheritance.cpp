@@ -32,6 +32,7 @@ class CTriangle : public CPolygon {
 };
 
 int main() {
+
 	CRectangle rect;
 	CTriangle trgl;
 
