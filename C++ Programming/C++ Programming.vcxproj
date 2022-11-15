@@ -22,8 +22,7 @@
     <ClInclude Include="Week10\operatorOverloading.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week11\inheritance2.cpp" />
-    <ClCompile Include="Week11\Practice5.cpp" />
+    <ClCompile Include="Week11\MultiInheritance.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
