@@ -10,21 +10,18 @@ using namespace std;
 class Point {
 protected:
 	float x, y;
-
 public:
 	Point();
 	Point(float x, float y);
 	float length();
 	float operator*(Point& b);		// 나머지 하나는 this
 	friend ostream& operator << (ostream& os, const Point& p);
-
 };
 
 Point::Point() {
 	x = 0;
 	y = 0;
 }
-
 
 Point::Point(float x, float y) {
 	this->x = x;	// 혼동 방지를 위한 this
