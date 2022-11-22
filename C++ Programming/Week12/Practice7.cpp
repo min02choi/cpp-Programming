@@ -7,11 +7,13 @@ class PhoneNumber {
 private:
 	string number;
 public:
-	PhoneNumber
+	PhoneNumber(string num);
+	string masking(int k) const;
+
 
 };
 
-PhoneNumber::PhoneNumer(string num) {
+PhoneNumber::PhoneNumber(string num) {
 	number = num;
 }
 
@@ -19,6 +21,7 @@ string PhoneNumber::masking(int k) const {
 	for (int i = 0; i < number.length(); i++) {
 
 	}
+	// 리턴해주기
 }
 
 ostream& operator << (ostream& os, const PhoneNumber& p) {
