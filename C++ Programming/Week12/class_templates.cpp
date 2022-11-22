@@ -3,9 +3,11 @@
 #include <vector>
 #include "class_practice3_prof.cpp"
 
-
 /*
 	Template
+	이 코드에서는 대소비교가 잘 되느냐가 핵심임
+	- 대소비교가 되는 타입을 입력
+	- user defined이면 operation overloading을 해주어야 함
 */
 
 using namespace std;
