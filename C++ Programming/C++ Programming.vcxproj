@@ -22,8 +22,8 @@
     <ClInclude Include="Week10\operatorOverloading.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week12\class_practice3_prof.cpp" />
-    <ClCompile Include="Week12\class_templates.cpp" />
+    <ClCompile Include="Week13\inoutput.cpp" />
+    <ClCompile Include="Week13\Practice11.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
