@@ -34,19 +34,23 @@ vector<int> mysolution(int n, int m) {
 
 ////////// class을 이용한 구현 /////////////////////////////////////////////////////
 
+/* Class Utility */
 class Utility {
 public:
     static bool isDiv(int a, int b);
     static bool isPrime(int a);         // a가 소수인가?
-
 };
 
+/* class Practice8 */
 class Practice8 {
     int n;
 public:
     Practice8(int n);    // a가 b로 나누어지는가?
     int solution();         // a가 소수인가?
 };
+
+
+/* Utility 구현 */
 bool Utility::isDiv(int a, int b) {
     return a % b == 0;
 }

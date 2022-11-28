@@ -2,8 +2,6 @@
 #include <string>
 #include <vector>
 
-
-
 using namespace std;
 
 class Practice10 : public Practice8 {
