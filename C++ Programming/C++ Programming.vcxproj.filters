@@ -20,8 +20,15 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week13\Professor_Code2.cpp">
+    <ClCompile Include="Week13\readFile.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Week13\readingFile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\OneDrive\바탕 화면\sample.txt" />
+    <Text Include="Week13\sample.txt" />
   </ItemGroup>
 </Project>
