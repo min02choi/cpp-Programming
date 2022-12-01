@@ -22,11 +22,12 @@
     <ClInclude Include="Week10\operatorOverloading.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week13\readFile.cpp" />
-    <ClCompile Include="Week13\readingFile.cpp" />
+    <ClCompile Include="Practice\self-study\file\file_open.cpp" />
+    <ClCompile Include="Week14\Practice13.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\..\OneDrive\바탕 화면\sample.txt" />
+    <Text Include="Practice\self-study\file\a.txt" />
     <Text Include="Week13\sample.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

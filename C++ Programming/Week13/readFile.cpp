@@ -15,7 +15,7 @@ public:
 int main() {
 
 	vector<Reading> temps;
-	ifstream ist{ "../sample.txt" };
+	ifstream ist{ "sample.txt" };
 	int hour;
 	double temperature;
 	while (ist >> hour >> temperature) {
