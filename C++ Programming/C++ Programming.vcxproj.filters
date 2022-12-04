@@ -20,16 +20,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week14\Practice13.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Practice\self-study\file\file_open.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\..\..\..\OneDrive\바탕 화면\sample.txt" />
     <Text Include="Week13\sample.txt" />
     <Text Include="Practice\self-study\file\a.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Practice\Part2\Practice12.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
