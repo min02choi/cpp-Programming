@@ -24,7 +24,7 @@
     <Text Include="Practice\self-study\file\a.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Practice\Part2\Practice12.cpp">
+    <ClCompile Include="Week12\Practice7.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
