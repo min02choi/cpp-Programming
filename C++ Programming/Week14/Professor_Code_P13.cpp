@@ -41,12 +41,30 @@ TDArray TDArray::operator*(TDArray ar) {
 	for (int i = 0; i < values.size(); i++) {
 		vector<int> row;
 		for (int j = 0; j < ar.values[0].size(); j++) {
+			int sum = 0;
+			for (int k = 0; k < values[0].size(); k++) {
+				sum += values[i][k] * ar.values[k][j];
+			}
 			row.push_back(getInnerProduct(ar, i, j));
 		}
 		v.push_back(row);
 	}
 	return TDArray(v);
 }
+
+/*
+TDArray TDArray::operator*(TDArray ar) {
+	vector<vector<int>> v;
+	for (int i = 0; i < values.size(); i++) {
+		vector<int> row;
+		for (int j = 0; j < ar.values[0].size(); j++) {
+			row.push_back(getInnerProduct(ar, i, j));
+		}
+		v.push_back(row);
+	}
+	return TDArray(v);
+}
+*/
 
 ostream& operator<<(ostream& os, TDArray ar) {
 	for (int i = 0; i < ar.values.size(); i++) {

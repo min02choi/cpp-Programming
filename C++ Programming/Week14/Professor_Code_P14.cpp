@@ -185,3 +185,9 @@ int main() {
 
 // 다형성, 캡슐화, 상속
 // 어려워용
+
+
+/*
+	1. friend bool operator==(Path& a, Path& b);
+	이떄 왜 friend를 사용?
+*/
