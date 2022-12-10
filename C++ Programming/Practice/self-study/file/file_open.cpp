@@ -1,17 +1,20 @@
 #include <iostream>
 #include <fstream>
+#include <vector>
 
 using namespace std;
 
 int main() {
-	ofstream fout;
-	fout.open("./a.txt");
-
+	ifstream fout;
+	fout.open("./Practice/self-study/file/a.txt");
+	vector<string> v;
 	for (int i = 0; i <= 10; i++) {
-		fout << i << endl;
+		string s;
+		fout >> s;
+		v.push_back(s);
 	}
-	fout << endl;
-
+	for (auto s : v)
+		cout << s << endl;
 	fout.close();
 
 	return 0;
