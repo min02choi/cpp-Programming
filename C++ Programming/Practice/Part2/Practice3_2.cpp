@@ -15,65 +15,51 @@ using namespace std;
 class LeftOverOne {
 protected:
 	int n;
-	virtual int leftOver();
+	virtual int leftOver() {
+		return 1;
+	}
+
 public:
-//	LeftOverOne() {}
-	LeftOverOne(int n=0);
-//	int solution();
+	~LeftOverOne() { cout << "家戈磊1\n"; }
+	LeftOverOne(int n=0) {
+		cout << "积己磊1\n";
+		this->n = n;
+	}
+
+	int solution() {
+		int num;
+		int temp = n - leftOver();
+		for (int i = 2; i < temp; i++) {
+			if (temp % i == 0) {
+				num = i;
+				return num;
+			}
+		}
+	}
+
 };
 
 class LeftOverTwo : public LeftOverOne {
-	virtual int leftOver();
+	int leftOver() {
+		return 2;
+	}
 public:
-//	LeftOverTwo(int n);
-	LeftOverTwo(int n) : LeftOverOne(n) {}
-	LeftOverTwo(int n)  { this->n = n; }
+	~LeftOverTwo() { cout << "家戈磊2\n"; }
+	LeftOverTwo(int n) : LeftOverOne(n) {
+		cout << "积己磊2\n";
+	}
 };
 
 class LeftOverThree : public LeftOverTwo {
-	virtual int leftOver();
-public:
-	LeftOverThree(int n);
-};
-
-/* class LeftOverOne 备泅 */
-LeftOverOne::LeftOverOne(int n) {
-	this->n = n;
-}
-
-int LeftOverOne::solution() {
-	int num;
-	int temp = n - leftOver();
-	for (int i = 2; i < temp; i++) {
-		if (temp % i == 0) {
-			num = i;
-			return num;
-		}
+	int leftOver() {
+		return 3;
 	}
-}
-
-int LeftOverOne::leftOver() {
-	return 1;
-}
-
-/* class LeftOverTwo 备泅 */
-LeftOverTwo::LeftOverTwo(int n) : LeftOverOne(n) {
-	;
-}
-
-int LeftOverTwo::leftOver() {
-	return 2;
-}
-
-/* class LeftOverOne 备泅 */
-LeftOverThree::LeftOverThree(int n) : LeftOverTwo(n) {
-	;
-}
-
-int LeftOverThree::leftOver() {
-	return 3;
-}
-
+public:
+	~LeftOverThree() { cout << "家戈磊3\n"; }
+	LeftOverThree(int n) : LeftOverTwo(n) {
+		cout << "积己磊3\n";
+	}
+};
 
 int main() {
 

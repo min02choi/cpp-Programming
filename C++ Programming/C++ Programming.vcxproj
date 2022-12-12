@@ -26,7 +26,9 @@
     <Text Include="Week13\sample.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Practice\self-study\file\file_open.cpp" />
+    <ClCompile Include="Practice\FinalAdditional\Practice2.cpp" />
+    <ClCompile Include="Practice\Part2\Practice3_2.cpp" />
+    <ClCompile Include="Week14\Professor_Code_P13.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

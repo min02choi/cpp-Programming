@@ -17,15 +17,9 @@ bool solution(string s) {
     if (s.length() != 4 || s.length() != 6)
 
     for (char c : s) {
-        /*
-        if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) {
-            return false;
-        }
-        */
         if (!(c >= '0' || c <= '9')) {
             return false;
         }
-
     }
     return true;
 }
