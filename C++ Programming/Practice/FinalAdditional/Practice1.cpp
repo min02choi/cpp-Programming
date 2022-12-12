@@ -56,6 +56,19 @@ SevenSeg::SevenSeg(int n) {
 	Set();
 }
 
+/*
+ostream& operator<<(ostream& os, SevenSeg& ss) {
+	int k = 0;
+	for (int i = 0; i < 5; i++) {
+		for (int j = 0; j < 3; j++) {
+			os << ss.seg[k++];
+		}
+		os << endl;
+	}
+	return os;
+}
+*/
+
 ostream& operator<<(ostream& os, SevenSeg& ss) {
 	int k = 0;
 	for (int i = 0; i < 5; i++) {

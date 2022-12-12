@@ -77,7 +77,7 @@ int myGame::getY() {
 void myGame::move(string& commands) {
 	for (int i = 0; i < commands.length(); i++) {
 		try {
-			move(commands[i]);
+			// move(commands[i]);
 			int preX = x;
 			int preY = y;
 			move(commands[i]);
