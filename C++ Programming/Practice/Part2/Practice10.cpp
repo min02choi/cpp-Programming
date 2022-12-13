@@ -9,7 +9,6 @@ using namespace std;
 
 class NumDivisor {
 	int num;
-	int getMaxNum();
 public:
 	NumDivisor(int a);
 	int getDivisorSum();

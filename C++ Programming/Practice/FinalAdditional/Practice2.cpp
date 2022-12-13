@@ -79,7 +79,6 @@ void Puzzle::move(char c) {
 		break;
 	case 'd':
 		if (y == 2) { throw isNotMovable(); };
-		// int from = convert(x, y);
 		to = convert(x, y + 1);
 		cell[from] = cell[to];
 		cell[to] = 0;
@@ -87,7 +86,6 @@ void Puzzle::move(char c) {
 		break;
 	case 'l':
 		if (x == 0) { throw isNotMovable(); };
-		// int from = convert(x, y);
 		to = convert(x - 1, y);
 		cell[from] = cell[to];
 		cell[to] = 0;
@@ -95,7 +93,6 @@ void Puzzle::move(char c) {
 		break;
 	case 'r':
 		if (x == 2) { throw isNotMovable(); };
-		// int from = convert(x, y);
 		to = convert(x + 1, y);
 		cell[from] = cell[to];
 		cell[to] = 0;

@@ -91,6 +91,7 @@ long long Practice12::solution() {
 
 /* class Practice12_2 구현 */
 Practice12_2::Practice12_2(long long a) : Practice12(a){
+	;
 	// n = a;
 	// Practice12(a);
 	// 질문: 초기화 방법 이뿐?

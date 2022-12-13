@@ -6,6 +6,9 @@
 	Seven Segment 구현
 */
 
+// 마지막 출력과정 주의(friend 설정)
+// 잘은 모르겠지만 일단 &로 전달
+
 
 using namespace std;
 
